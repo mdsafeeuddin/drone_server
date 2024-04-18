@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'djserver.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'drone',  
-        'USER': 'root',  
-        'PASSWORD': '',  
-        'HOST': '127.0.0.1',  
+        'NAME': 'drone_travels',  
+        'USER': 'drone_travels',  
+        'PASSWORD': 'drone@123',  
+        'HOST': '68.178.159.26',  
         'PORT': '3306',  
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'" 
